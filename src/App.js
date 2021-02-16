@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/header/header';
+import OptionCard from './components/optionCard/optionCard';
+import OrderDetails from './components/orderDetails/orderDetails';
+import ProductDetail from './components/productDetails/productDetail';
+import RelatedProducts from './components/relatedProducts/relatedProducts';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <OrderDetails />
+      <OptionCard ico="far fa-clock">Reschedule The Delivery</OptionCard>
+      <OptionCard ico="far fa-bell">
+        Pick up from the last Hub / Courier
+      </OptionCard>
+      <OptionCard ico="fas fa-truck">Get delivery updates</OptionCard>
+      <ProductDetail />
+      <RelatedProducts />
     </div>
   );
 }

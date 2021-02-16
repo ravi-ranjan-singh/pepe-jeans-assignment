@@ -1,0 +1,70 @@
+.pdetail {
+  height: 143px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.pdetail h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.pdetail h4 .primary {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #020235;
+}
+
+.pdetail h4 .secondary {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #3e57d1;
+}
+
+.pdetail h4 .secondary i {
+  margin-right: 5px;
+}
+
+.pdetail section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pdetail section img {
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.pdetail section .pname {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.pdetail section .disc {
+  font-size: 10px;
+  line-height: 130%;
+  color: #000000;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.pdetail section .price {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000;
+}
+/*# sourceMappingURL=productDetail.css.map */

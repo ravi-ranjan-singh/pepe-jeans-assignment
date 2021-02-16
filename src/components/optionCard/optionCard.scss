@@ -1,0 +1,21 @@
+.option-card {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  background-color: white;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  color: #020235;
+  opacity: 0.8;
+  padding: 15px 20px;
+  i {
+    &:first-child {
+      margin-right: 15px;
+    }
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}

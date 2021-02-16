@@ -1,0 +1,32 @@
+.product-card .pimge {
+  width: 141px;
+  height: 140px;
+}
+
+.product-card .pname {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #020235;
+  opacity: 0.9;
+  margin-top: 10px;
+}
+
+.product-card .pdesc {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #020235;
+  opacity: 0.5;
+  margin-top: 5px;
+}
+
+.product-card .price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.2216px;
+  line-height: 17px;
+  color: #020235;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=product.css.map */
